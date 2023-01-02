@@ -1,0 +1,76 @@
+.container_contato{
+    background-color: #3BA2EC;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contatos{
+    width: 40%;
+    display: grid;
+    justify-content: center;
+}
+
+.contatos p{
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.contatos h1{
+    color: #FFF;
+    font-size: 64px;
+}
+
+.redes_sociais{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon_redes_sociais{
+    color: #000;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 42px;
+    font-size: 32px;
+
+}
+
+.container_formulario{
+    width: 40%;
+}
+
+.formulario_contato{
+    display: grid;
+}
+
+.campo_texto_formulario{
+    margin: 15px 0;
+    width: 520px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.btn_enviar{
+    background-color: #FFF;
+    color: #3BA2EC;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+.btn_enviar:hover {
+    background-color: #3BA2EC;
+    color: #FFF;
+    border: groove;
+    border-color: #FFF;
+    cursor: pointer;
+}

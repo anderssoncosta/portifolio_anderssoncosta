@@ -1,0 +1,52 @@
+.container_meusprojetos{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    background-color: #000;
+    position: relative;
+    justify-items: center;
+}
+.imagens_projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.titulo_meusprojetos{
+    display: flex;
+    color: #3BA2EC;
+    font-size: 64px;
+}
+.img_projeto{
+    border: groove;
+    border-color: #FFF;
+    border-radius: 10px;
+    margin: 0 50px;
+    display: inline;
+    width: 350px;
+    height: 300px;
+}
+
+.img_projeto:hover{
+    
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.titulo_img_projeto{
+    font-size: 29px;
+    color: #FFF;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: #3BA2EC;
+    border-radius: 10px;
+}
+
+.titulo_img_projeto:hover{
+    background-color:#FFF;
+    color: #3BA2EC;
+}
+
+.container_projeto_imagem{
+    display: flex;
+}

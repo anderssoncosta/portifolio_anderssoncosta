@@ -1,0 +1,64 @@
+.container{
+    position: relative;
+    display: grid;
+    height: 100vh;
+}
+
+.banner_fundo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    position: relative;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-left: 4em; 
+    color: #FFF;
+    padding-top: 70px;
+} 
+
+.link{
+    font-size: 45px;
+    border: 10px;
+    border-color: blue;
+    padding: 10px;
+    color: #FFF;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    align-items: center;
+}
+
+.btn{
+    background: #3BA2EC;
+    border-radius: 10px;
+    width: auto;
+}
+
+.btn:hover{
+    background-color:#FFF;
+    color: #3BA2EC;
+    
+}
+
+.sobre{
+    width: 50%;
+    color: #FFF;
+    display: flex;
+    position: relative;
+    margin-left: 8em;
+}
+
+.sobremim_texto{
+    font-size: 52px;
+    color: #FFF;
+    margin-top: 3em;
+}
