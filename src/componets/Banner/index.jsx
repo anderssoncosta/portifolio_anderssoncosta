@@ -13,14 +13,15 @@ const Banner = () => {
                     <a className='link btn' href="#paginainicial">Home</a>
                     <a className='link btn' href="#container_sobremim">Sobre mim</a>
                     <a className='link btn' href="#container_meusprojetosid">Projetos</a>
-                    <a className='link btn' href="#container_contatos">Contatos</a>
+                    <a className='link btn' href="#container_contato">Contatos</a>
                 </div>
         
                 <div className='sobre'>
                     <p className='sobremim_texto'>Desenvolvedor Front-end, Desenvolvo pequenos projetos utilizando HTML, CSS, JavaScript e React. 
                     </p>
                 </div>
-        
+
+       
             </div>
 
         

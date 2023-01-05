@@ -2,7 +2,7 @@ import './Contato.css'
 
 const Contato = () => {
     return (
-        <div className="container_contato">
+        <div className="container_contato" id='container_contato'>
             <div className="contatos">
                 <h1>Entre em contato !</h1>
                 <p>Orçamentos ou proposta de trabalho.</p>

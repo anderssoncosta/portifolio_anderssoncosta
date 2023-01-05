@@ -50,3 +50,51 @@
 .container_projeto_imagem{
     display: flex;
 }
+
+@media only screen and (max-width: 390px){
+    
+    .titulo_meusprojetos{
+        text-align: center;
+        display: block;    
+    }
+    .container_meusprojetos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .container_projeto_imagem{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagens_projetos{
+        padding: 10px 0;
+    }
+    .img_projeto{
+        margin: 15px 0;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 900px){
+    .titulo_meusprojetos{
+        text-align: center;
+        display: block;    
+    }
+    .container_meusprojetos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .container_projeto_imagem{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagens_projetos{
+        padding: 10px 0;
+    }
+    .img_projeto{
+        margin: 15px 0;
+    }
+}
